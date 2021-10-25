@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listOptions">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>English Language</item>
+        <item>Hindi Language</item>
+        <item>Other Language</item>
+    </string-array>
+
+    <string-array name="basketOptions">
+        <item>Confectionaries</item>
+        <item>Cosmetic</item>
+        <item>Groceries</item>
+        <item>Stationeries</item>
+        <item>Household</item>
+        <item>Kitchen</item>
+    </string-array>
+
+    <string-array name="basketValues">
+        <item>Chocalate,Bisuit,Milk</item>
+        <item>Soap,Oilment, Shampoo</item>
+        <item>Grams,Oil,Rice</item>
+        <item>Pencil,PEN,ERASER</item>
+        <item>Cleaner, Refrigerators</item>
+        <item>Cookware, Knife</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TEST LISTVIEW</string>
+    <string-array name="teams">
+        <item>India</item>
+        <item>South Africa</item>
+        <item>Australia</item>
+        <item>England</item>
+        <item>New Zealand</item>
+        <item>Sri Lanka</item>
+        <item>Pakistan</item>
+        <item>West Indies</item>
+        <item>Bangladesh</item>
+        <item>Ireland</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

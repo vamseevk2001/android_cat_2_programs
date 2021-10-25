@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:text="Write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="writeFile"/>
+
+    <Button
+        android:text="Read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRead"
+        android:onClick="readFile"/>
+    <Button
+        android:text="Append"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAppend"
+        android:onClick="appendFile"/>
+
+    <Button
+        android:text="ListOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="onCreate1"/>
+
+    <Button
+        android:text="Save External File"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/extSaveButton"
+        android:onClick="onCreateExtFile"/>
+    <Button
+        android:text="Retreive All Files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/extRetButton"
+        android:onClick="listFiles"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Enter Content Here"
+        android:ems="10"
+        android:id="@+id/editText"/>
+    <ListView
+        android:id="@+id/userlist"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+</LinearLayout>

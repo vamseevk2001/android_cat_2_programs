@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PreferencesDemo</string>
+    <string name="title_activity_preferences_demo">PreferencesDemoActivity</string>
+    <string name="title_activity_prefs">PrefsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
